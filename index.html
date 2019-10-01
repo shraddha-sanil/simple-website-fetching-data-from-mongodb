@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Candidate Portal</title>
+      <link href="bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="style.css" rel="stylesheet" media="screen">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script data-require="angular.js@1.0.x" src="http://code.angularjs.org/1.0.7/angular.min.js" data-semver="1.0.7"></script>
+    <script src="jsonload.js"></script>
+
+  </head>
+
+  <body>
+    <div ng-controller="jsonCtrl" class="container-fluid">
+	<br />
+	
+<div align="center"><h1><b>Candidate Portal</b></h1></div>
+
+  <title>Search Maginfier</title> 
+  
+  
+  <div class="text-right" align="center">
+ 
+<input type="text" ng-model="search" placeholder="Search...">
+ <i class="fa fa-search"></i> 
+
+
+</div>
+ </p>
+
+		<i>  Hint: Click on the table header to sort.</i>
+    <table class="table table-striped" id="myTable">
+	
+	<thead>
+	<tr>
+    <th onclick="sortTable(0)">Candidate Number</th>
+    <th onclick="sortTable(1)">Name</th>
+    <th onclick="sortTable(2)">Department</th>
+    <th onclick="sortTable(3)">Contact Number</th>
+    <th onclick="sortTable(4)">Email</th>
+    <th onclick="sortTable(5)">Skill List</th>
+	</tr>
+	</thead>
+	<tbody>
+	
+        <tr ng-repeat="resource in employees | filter:search">
+            <td>{{ resource.Candidate_no }}</td>
+            <td>{{ resource.Name }}</td>
+            <td>{{ resource.Department }}</td>
+			<td>{{ resource.Contact }}</td>
+			<td>{{ resource.Email }}</td>
+			<td>{{ resource.Skill }}</td>
+        </tr>
+	</tbody>
+    </table>
+		
+<script>
+function sortTable(n) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  table = document.getElementById("myTable");
+  switching = true;
+  //Set the sorting direction to ascending:
+  dir = "asc"; 
+  /*Make a loop that will continue until
+  no switching has been done:*/
+  while (switching) {
+    //start by saying: no switching is done:
+    switching = false;
+    rows = table.rows;
+    /*Loop through all table rows (except the
+    first, which contains table headers):*/
+    for (i = 1; i < (rows.length - 1); i++) {
+      //start by saying there should be no switching:
+      shouldSwitch = false;
+      /*Get the two elements you want to compare,
+      one from current row and one from the next:*/
+      x = rows[i].getElementsByTagName("TD")[n];
+      y = rows[i + 1].getElementsByTagName("TD")[n];
+      /*check if the two rows should switch place,
+      based on the direction, asc or desc:*/
+      if (dir == "asc") {
+	  	  if(n==0){
+		  if (parseInt(x.innerHTML) > parseInt(y.innerHTML)) {
+          //if so, mark as a switch and break the loop:
+          shouldSwitch= true;
+          break;
+        }
+	  }else{
+        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+          //if so, mark as a switch and break the loop:
+          shouldSwitch= true;
+          break;
+        }
+		}
+      } else if (dir == "desc") {
+	  if(n==0){
+		  if (parseInt(x.innerHTML) < parseInt(y.innerHTML)) {
+          //if so, mark as a switch and break the loop:
+          shouldSwitch= true;
+          break;
+        }
+	  }else{
+        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+          //if so, mark as a switch and break the loop:
+          shouldSwitch = true;
+          break;
+        }
+		}
+      }
+    }
+    if (shouldSwitch) {
+      /*If a switch has been marked, make the switch
+      and mark that a switch has been done:*/
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      //Each time a switch is done, increase this count by 1:
+      switchcount ++;      
+    } else {
+      /*If no switching has been done AND the direction is "asc",
+      set the direction to "desc" and run the while loop again.*/
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+</script>
+
+<br /><br />
+        
+  </div>
+
+  </body>
+
+</html>

@@ -1,0 +1,130 @@
+[
+{
+   "Candidate_no": 1,
+   "Name": "Vishwanath",
+   "Department": "Data Analytics",
+   "Contact": "9945529565",
+   "Email": "vishwa83@gmail.com",
+   "Skill": "python, PySpark, D3.js"
+ },
+ {
+   "Candidate_no": 2,
+   "Name": "Avinash Chandra",
+   "Department": "Full Stack Developer",
+   "Contact": "9971909842",
+   "Email": "avinash.chandra@in.ibm.com",
+   "Skill": "MongoDB Python"
+ },
+ {
+   "Candidate_no": 3,
+   "Name": "Veeresh",
+   "Department": "Full Stack Developer",
+   "Contact": "8197033784",
+   "Email": "veeresh.bushetti@in.ibm.com",
+   "Skill": "Java Db NodeJs MongoDB"
+ },
+ {
+   "Candidate_no": 4,
+   "Name": "Avinash H",
+   "Department": "Front End Developer",
+   "Contact": "9900225993",
+   "Email": "havinash@in.ibm.com",
+   "Skill": "AngularJs Javascript"
+ },
+ {
+   "Candidate_no": 5,
+   "Name": "Bala Subramanian",
+   "Department": "Chief Infrastructure Architect",
+   "Contact": "8722724555",
+   "Email": "ananthbal@in.ibm.com",
+   "Skill": "Middleware Technologies"
+ },
+ {
+   "Candidate_no": 6,
+   "Name": "Prashanth",
+   "Department": "Developer",
+   "Contact": "9880142718",
+   "Email": "naikprashanth2@gmail.com",
+   "Skill": "Db Python Pyspark"
+ },
+ {
+   "Candidate_no": 7,
+   "Name": "Yash",
+   "Department": "Developer",
+   "Contact": "8884210005",
+   "Email": "yashniga@in.ibm.com",
+   "Skill": "Database with watson"
+ },
+ {
+   "Candidate_no": 8,
+   "Name": "Sudhir",
+   "Department": "Lead Infrastructure Architect",
+   "Contact": "7760910910",
+   "Email": "sumahale@in.ibm.com",
+   "Skill": "Cognos Tableau Kibana"
+ },
+ {
+   "Candidate_no": 9,
+   "Name": "Senthil",
+   "Department": "Devops",
+   "Contact": "9962193932",
+   "Email": "erkumarv@gmail.com",
+   "Skill": "Unix Docker"
+ },
+ {
+   "Candidate_no": 10,
+   "Name": "Sharath",
+   "Department": "Full Stack Developer",
+   "Contact": "9731728117",
+   "Email": "sharaththorwant406@gmail.com",
+   "Skill": "python Pyspark Redhat"
+ },
+ {
+   "Candidate_no": 11,
+   "Name": "Sudhanva",
+   "Department": "Full Stack Developer",
+   "Contact": "9742201412",
+   "Email": "sudhanva.k@in.ibm.com",
+   "Skill": "python PySpark"
+ },
+ {
+   "Candidate_no": 12,
+   "Name": "Ritu",
+   "Department": "Application Developer",
+   "Contact": " ",
+   "Email": "rijain13@in.ibm.com",
+   "Skill": "Cognos DB2 Excel"
+ },
+ {
+   "Candidate_no": 13,
+   "Name": "Gadigeppa",
+   "Department": "Backend Developer",
+   "Contact": "8147268325",
+   "Email": "gaddesh023@gmail.com",
+   "Skill": "Java J2EE"
+ },
+ {
+   "Candidate_no": 14,
+   "Name": "Sarita ",
+   "Department": "UX Designer",
+   "Contact": "9898265183",
+   "Email": "-",
+   "Skill": "SoftwareSketch Invision"
+ },
+ {
+   "Candidate_no": 15,
+   "Name": "Muniyaadi Perumal",
+   "Department": "Full Stack Architect",
+   "Contact": "7904340696",
+   "Email": "munperum@in.ibm.com",
+   "Skill": "AngularJs SOA"
+ },
+ {
+   "Candidate_no": 16,
+   "Name": "Kumaran",
+   "Department": "Developer",
+   "Contact": "9344117496",
+   "Email": "kumarr03@in.ibm.com",
+   "Skill": "AngularJs MongoDB NodeJS"
+ }
+]

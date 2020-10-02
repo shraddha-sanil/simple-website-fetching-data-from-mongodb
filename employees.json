@@ -3,128 +3,128 @@
    "Candidate_no": 1,
    "Name": "Vishwanath",
    "Department": "Data Analytics",
-   "Contact": "9945529565",
-   "Email": "vishwa83@gmail.com",
+   "Contact": "99*****565",
+   "Email": "vishwa@gmail.com",
    "Skill": "python, PySpark, D3.js"
  },
  {
    "Candidate_no": 2,
    "Name": "Avinash Chandra",
    "Department": "Full Stack Developer",
-   "Contact": "9971909842",
-   "Email": "avinash.chandra@in.ibm.com",
+   "Contact": "99*****842",
+   "Email": "avinashchand@in.ibm.com",
    "Skill": "MongoDB Python"
  },
  {
    "Candidate_no": 3,
    "Name": "Veeresh",
    "Department": "Full Stack Developer",
-   "Contact": "8197033784",
-   "Email": "veeresh.bushetti@in.ibm.com",
+   "Contact": "81*****784",
+   "Email": "veeresh@in.ibm.com",
    "Skill": "Java Db NodeJs MongoDB"
  },
  {
    "Candidate_no": 4,
    "Name": "Avinash H",
    "Department": "Front End Developer",
-   "Contact": "9900225993",
-   "Email": "havinash@in.ibm.com",
+   "Contact": "99*****993",
+   "Email": "avinash@in.ibm.com",
    "Skill": "AngularJs Javascript"
  },
  {
    "Candidate_no": 5,
    "Name": "Bala Subramanian",
    "Department": "Chief Infrastructure Architect",
-   "Contact": "8722724555",
-   "Email": "ananthbal@in.ibm.com",
+   "Contact": "87*****555",
+   "Email": "ananth@in.ibm.com",
    "Skill": "Middleware Technologies"
  },
  {
    "Candidate_no": 6,
    "Name": "Prashanth",
    "Department": "Developer",
-   "Contact": "9880142718",
-   "Email": "naikprashanth2@gmail.com",
+   "Contact": "98*****718",
+   "Email": "prashanth@gmail.com",
    "Skill": "Db Python Pyspark"
  },
  {
    "Candidate_no": 7,
    "Name": "Yash",
    "Department": "Developer",
-   "Contact": "8884210005",
-   "Email": "yashniga@in.ibm.com",
+   "Contact": "88*****005",
+   "Email": "yash@in.ibm.com",
    "Skill": "Database with watson"
  },
  {
    "Candidate_no": 8,
    "Name": "Sudhir",
    "Department": "Lead Infrastructure Architect",
-   "Contact": "7760910910",
-   "Email": "sumahale@in.ibm.com",
+   "Contact": "77*****910",
+   "Email": "sudhirr@in.ibm.com",
    "Skill": "Cognos Tableau Kibana"
  },
  {
    "Candidate_no": 9,
    "Name": "Senthil",
    "Department": "Devops",
-   "Contact": "9962193932",
-   "Email": "erkumarv@gmail.com",
+   "Contact": "99*****932",
+   "Email": "kumar@gmail.com",
    "Skill": "Unix Docker"
  },
  {
    "Candidate_no": 10,
    "Name": "Sharath",
    "Department": "Full Stack Developer",
-   "Contact": "9731728117",
-   "Email": "sharaththorwant406@gmail.com",
+   "Contact": "97*****117",
+   "Email": "sharath@gmail.com",
    "Skill": "python Pyspark Redhat"
  },
  {
    "Candidate_no": 11,
    "Name": "Sudhanva",
    "Department": "Full Stack Developer",
-   "Contact": "9742201412",
-   "Email": "sudhanva.k@in.ibm.com",
+   "Contact": "97*****412",
+   "Email": "sudhanva@in.ibm.com",
    "Skill": "python PySpark"
  },
  {
    "Candidate_no": 12,
    "Name": "Ritu",
    "Department": "Application Developer",
-   "Contact": " ",
-   "Email": "rijain13@in.ibm.com",
+   "Contact": "99********",
+   "Email": "rijain@in.ibm.com",
    "Skill": "Cognos DB2 Excel"
  },
  {
    "Candidate_no": 13,
    "Name": "Gadigeppa",
    "Department": "Backend Developer",
-   "Contact": "8147268325",
-   "Email": "gaddesh023@gmail.com",
+   "Contact": "81*****325",
+   "Email": "gaddesh@gmail.com",
    "Skill": "Java J2EE"
  },
  {
    "Candidate_no": 14,
    "Name": "Sarita ",
    "Department": "UX Designer",
-   "Contact": "9898265183",
-   "Email": "-",
+   "Contact": "98*****183",
+   "Email": "sarita@in.ibm.com",
    "Skill": "SoftwareSketch Invision"
  },
  {
    "Candidate_no": 15,
    "Name": "Muniyaadi Perumal",
    "Department": "Full Stack Architect",
-   "Contact": "7904340696",
-   "Email": "munperum@in.ibm.com",
+   "Contact": "79*****696",
+   "Email": "perum@in.ibm.com",
    "Skill": "AngularJs SOA"
  },
  {
    "Candidate_no": 16,
    "Name": "Kumaran",
    "Department": "Developer",
-   "Contact": "9344117496",
-   "Email": "kumarr03@in.ibm.com",
+   "Contact": "93*****496",
+   "Email": "kumar@in.ibm.com",
    "Skill": "AngularJs MongoDB NodeJS"
  }
 ]
